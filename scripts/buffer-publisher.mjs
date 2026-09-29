@@ -74,7 +74,7 @@ const mutation = `mutation CreatePost {
   createPost(input: {
     text: ${esc(next.text)},
     channelId: ${esc(fb.id)},
-        schedulingType: automatic,
+    schedulingType: automatic,
     mode: addToQueue,
     metadata: {
       facebook: {
