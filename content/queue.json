@@ -1,0 +1,52 @@
+[
+  {
+    "id": "fb-001",
+    "status": "ready",
+    "text": "🎓 ĐANG LÀM KHÓA LUẬN NHƯNG KHÔNG BIẾT BÀI MÌNH ĐANG SAI Ở ĐÂU?\n\nĐừng sửa mò cả bài. Hãy kiểm tra 4 điểm trước: câu hỏi nghiên cứu, mục tiêu, dữ liệu và phương pháp.\n\nTrợ Giúp Sinh Viên hỗ trợ xác định đúng chỗ đang vướng và bước tiếp theo nên làm. Không viết thuê luận văn.\n\n👉 Đặt lịch: https://trogiupsinhvien.vercel.app/?utm_source=facebook&utm_medium=organic&utm_campaign=thesis_pilot&utm_content=fb001"
+  },
+  {
+    "id": "fb-002",
+    "status": "ready",
+    "text": "📝 GVHD bảo “xem lại phương pháp” nhưng bạn không biết phải xem lại cái gì?\n\nThường phải kiểm tra: mục tiêu nghiên cứu → loại dữ liệu → phương pháp phân tích → cách diễn giải kết quả.\n\nNếu chưa xác định được điểm sai, có thể đặt lịch để kiểm tra bài trước khi sửa tiếp.\n\n👉 https://trogiupsinhvien.vercel.app/?utm_source=facebook&utm_medium=organic&utm_campaign=thesis_pilot&utm_content=fb002"
+  },
+  {
+    "id": "fb-003",
+    "status": "ready",
+    "text": "📊 CÓ FILE EXCEL RỒI NHƯNG KHÔNG BIẾT LÀM GÌ TIẾP?\n\nCronbach? EFA? Regression? Python? GIS?\n\nĐừng chọn phương pháp chỉ vì thấy người khác làm. Phương pháp phải xuất phát từ câu hỏi nghiên cứu và dữ liệu thực tế của bạn.\n\n👉 Đặt lịch hỗ trợ: https://trogiupsinhvien.vercel.app/?utm_source=facebook&utm_medium=organic&utm_campaign=thesis_pilot&utm_content=fb003"
+  },
+  {
+    "id": "fb-004",
+    "status": "ready",
+    "text": "😵‍💫 NHẬN FEEDBACK CỦA GVHD XONG VẪN KHÔNG BIẾT SỬA TỪ ĐÂU?\n\nHãy tách feedback thành 3 nhóm: Must fix → Should fix → Có thể giữ nguyên. Sau đó sửa theo mức độ ảnh hưởng đến toàn bài, không sửa theo thứ tự dòng comment.\n\n👉 Nếu cần cùng đọc và bóc tách feedback: https://trogiupsinhvien.vercel.app/?utm_source=facebook&utm_medium=organic&utm_campaign=thesis_pilot&utm_content=fb004"
+  },
+  {
+    "id": "fb-005",
+    "status": "ready",
+    "text": "🔎 5 câu nên tự hỏi trước khi nộp đề cương:\n\n1) Vấn đề nghiên cứu có rõ không?\n2) Mục tiêu có đo được không?\n3) Dữ liệu có thật sự lấy được không?\n4) Phương pháp có trả lời đúng câu hỏi nghiên cứu không?\n5) Kết quả dự kiến có giá trị gì?\n\n👉 Cần kiểm tra đề cương: https://trogiupsinhvien.vercel.app/?utm_source=facebook&utm_medium=organic&utm_campaign=thesis_pilot&utm_content=fb005"
+  },
+  {
+    "id": "fb-006",
+    "status": "ready",
+    "text": "🗺️ Làm đề tài có GIS/GEE/Remote Sensing nhưng bị kẹt ở dữ liệu, code hoặc bản đồ?\n\nĐừng bắt đầu bằng việc viết code dài. Cần chốt trước: khu vực nghiên cứu → dữ liệu → chỉ số/phương pháp → output bản đồ → cách kiểm định.\n\n👉 Đặt lịch hỗ trợ: https://trogiupsinhvien.vercel.app/?utm_source=facebook&utm_medium=organic&utm_campaign=thesis_pilot&utm_content=fb006"
+  },
+  {
+    "id": "fb-007",
+    "status": "ready",
+    "text": "💡 LUẬN VĂN KHÔNG NHẤT THIẾT PHẢI ‘HAY’ NGAY TỪ ĐẦU.\n\nNhưng nó phải logic: vấn đề → câu hỏi → mục tiêu → dữ liệu → phương pháp → kết quả → kết luận. Chỉ cần một mắt xích lệch, các chương sau sẽ rất khó sửa.\n\n👉 Kiểm tra logic bài: https://trogiupsinhvien.vercel.app/?utm_source=facebook&utm_medium=organic&utm_campaign=thesis_pilot&utm_content=fb007"
+  },
+  {
+    "id": "fb-008",
+    "status": "ready",
+    "text": "📈 SPSS chạy ra kết quả không có nghĩa là phân tích đã đúng.\n\nQuan trọng hơn là: biến được xây dựng thế nào, giả thuyết nào đang kiểm định, điều kiện của mô hình có đạt không và kết quả trả lời câu hỏi nghiên cứu ra sao.\n\n👉 Nếu đang kẹt ở phần phân tích dữ liệu: https://trogiupsinhvien.vercel.app/?utm_source=facebook&utm_medium=organic&utm_campaign=thesis_pilot&utm_content=fb008"
+  },
+  {
+    "id": "fb-009",
+    "status": "ready",
+    "text": "⏰ DEADLINE LUẬN VĂN ĐANG TỚI GẦN?\n\nĐừng chia thời gian đều cho mọi chương. Hãy ưu tiên phần có khả năng làm cả bài phải sửa lại: phương pháp, dữ liệu và kết quả. Format và trình bày làm sau.\n\n👉 Cần xác định thứ tự xử lý: https://trogiupsinhvien.vercel.app/?utm_source=facebook&utm_medium=organic&utm_campaign=thesis_pilot&utm_content=fb009"
+  },
+  {
+    "id": "fb-010",
+    "status": "ready",
+    "text": "🎤 TRƯỚC KHI LÀM SLIDE BẢO VỆ, HÃY TRẢ LỜI ĐƯỢC 3 CÂU:\n\n1) Nghiên cứu giải quyết vấn đề gì?\n2) Bạn đã làm bằng cách nào?\n3) Kết quả quan trọng nhất là gì?\n\nNếu chưa nói gọn được 3 câu này, slide đẹp cũng khó cứu phần bảo vệ.\n\n👉 Đặt lịch chuẩn bị bảo vệ: https://trogiupsinhvien.vercel.app/?utm_source=facebook&utm_medium=organic&utm_campaign=thesis_pilot&utm_content=fb010"
+  }
+]
