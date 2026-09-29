@@ -1,207 +1,42 @@
-const API_URL = "https://api.buffer.com";
+name: Buffer Publisher
 
-const API_KEY = process.env.BUFFER_API_KEY;
-const MAX_BUFFER_QUEUE = Number(process.env.MAX_BUFFER_QUEUE || "6");
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '10 23 * * *'
 
-if (!API_KEY) {
-  throw new Error("Missing BUFFER_API_KEY");
-}
+permissions:
+  contents: write
 
-async function gql(query) {
-  const response = await fetch(API_URL, {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-      Authorization: `Bearer ${API_KEY}`,
-    },
-    body: JSON.stringify({ query }),
-  });
+jobs:
+  queue-next-post:
+    runs-on: ubuntu-latest
 
-  const payload = await response.json();
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
 
-  if (!response.ok || payload.errors) {
-    throw new Error(
-      `Buffer API error: ${JSON.stringify(payload)}`
-    );
-  }
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
 
-  return payload.data;
-}
+      - name: Add next post to Buffer queue
+        env:
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+          MAX_BUFFER_QUEUE: '6'
+        run: node scripts/buffer-publisher.mjs
 
-function esc(value) {
-  return JSON.stringify(value);
-}
+      - name: Save queue state
+        run: |
+          if git diff --quiet; then
+            echo "No queue changes."
+            exit 0
+          fi
 
-/*
- * 1. Find Buffer organization
- */
-const orgData = await gql(`
-  query {
-    organizations {
-      id
-      name
-    }
-  }
-`);
+          git config user.name "AI Marketing Bot"
+          git config user.email "actions@users.noreply.github.com"
 
-const organization = orgData.organizations?.[0];
-
-if (!organization) {
-  throw new Error("No Buffer organization found.");
-}
-
-console.log(`Organization: ${organization.name}`);
-
-/*
- * 2. Find connected Facebook channel
- */
-const channelData = await gql(`
-  query {
-    channels(input: {
-      organizationId: ${esc(organization.id)}
-    }) {
-      id
-      name
-      service
-    }
-  }
-`);
-
-const facebookChannel = channelData.channels?.find(
-  (channel) =>
-    String(channel.service).toLowerCase() === "facebook"
-);
-
-if (!facebookChannel) {
-  throw new Error(
-    `No Facebook channel found. Channels: ${JSON.stringify(
-      channelData.channels
-    )}`
-  );
-}
-
-console.log(
-  `Facebook channel: ${facebookChannel.name} (${facebookChannel.id})`
-);
-
-/*
- * 3. Read marketing queue
- */
-const fs = await import("node:fs/promises");
-
-const queuePath = "content/queue.json";
-
-const queueRaw = await fs.readFile(queuePath, "utf8");
-const queue = JSON.parse(queueRaw);
-
-if (!Array.isArray(queue.posts)) {
-  throw new Error("content/queue.json must contain a posts array.");
-}
-
-/*
- * 4. Find next unpublished post
- */
-const nextPost = queue.posts.find(
-  (post) => !post.queued && !post.published
-);
-
-if (!nextPost) {
-  console.log("No unpublished marketing posts remain.");
-  process.exit(0);
-}
-
-console.log(`Next campaign post: ${nextPost.id || "unnamed"}`);
-
-/*
- * 5. Check how many posts are already queued
- */
-const postsData = await gql(`
-  query {
-    posts(
-      input: {
-        channelId: ${esc(facebookChannel.id)}
-        status: scheduled
-      }
-    ) {
-      id
-    }
-  }
-`);
-
-const existingQueue = postsData.posts || [];
-
-console.log(
-  `Buffer currently has ${existingQueue.length} scheduled post(s).`
-);
-
-if (existingQueue.length >= MAX_BUFFER_QUEUE) {
-  console.log(
-    `Queue already has ${existingQueue.length} posts. Maximum is ${MAX_BUFFER_QUEUE}. Nothing added.`
-  );
-  process.exit(0);
-}
-
-/*
- * 6. Create Facebook post
- *
- * Facebook requires metadata.facebook.type.
- * We are creating a normal Facebook feed post.
- */
-const createPostMutation = `
-  mutation {
-    createPost(
-      input: {
-        text: ${esc(nextPost.text)}
-        channelId: ${esc(facebookChannel.id)}
-        schedulingType: automatic
-        mode: addToQueue
-        metadata: {
-          facebook: {
-            type: post
-          }
-        }
-      }
-    ) {
-      ... on PostActionSuccess {
-        post {
-          id
-          text
-        }
-      }
-      ... on MutationError {
-        message
-      }
-    }
-  }
-`;
-
-const created = await gql(createPostMutation);
-
-if (!created?.createPost?.post?.id) {
-  throw new Error(
-    `CreatePost failed: ${JSON.stringify(created?.createPost)}`
-  );
-}
-
-console.log(
-  `SUCCESS: Added post ${created.createPost.post.id} to Buffer queue.`
-);
-
-/*
- * 7. Mark this campaign item as queued
- *
- * GitHub Actions will commit this queue.json change,
- * preventing the same content from being queued twice.
- */
-nextPost.queued = true;
-nextPost.bufferPostId = created.createPost.post.id;
-nextPost.queuedAt = new Date().toISOString();
-
-await fs.writeFile(
-  queuePath,
-  JSON.stringify(queue, null, 2) + "\n",
-  "utf8"
-);
-
-console.log(`Updated ${queuePath}.`);
-console.log("AI Marketing Bot finished successfully.");
+          git add content/queue.json
+          git commit -m "chore: queue next Buffer post"
+          git push
