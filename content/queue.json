@@ -1,8 +1,11 @@
 [
   {
     "id": "fb-001",
-    "status": "ready",
-    "text": "🎓 ĐANG LÀM KHÓA LUẬN NHƯNG KHÔNG BIẾT BÀI MÌNH ĐANG SAI Ở ĐÂU?\n\nĐừng sửa mò cả bài. Hãy kiểm tra 4 điểm trước: câu hỏi nghiên cứu, mục tiêu, dữ liệu và phương pháp.\n\nTrợ Giúp Sinh Viên hỗ trợ xác định đúng chỗ đang vướng và bước tiếp theo nên làm. Không viết thuê luận văn.\n\n👉 Đặt lịch: https://trogiupsinhvien.vercel.app/?utm_source=facebook&utm_medium=organic&utm_campaign=thesis_pilot&utm_content=fb001"
+    "status": "queued",
+    "text": "🎓 ĐANG LÀM KHÓA LUẬN NHƯNG KHÔNG BIẾT BÀI MÌNH ĐANG SAI Ở ĐÂU?\n\nĐừng sửa mò cả bài. Hãy kiểm tra 4 điểm trước: câu hỏi nghiên cứu, mục tiêu, dữ liệu và phương pháp.\n\nTrợ Giúp Sinh Viên hỗ trợ xác định đúng chỗ đang vướng và bước tiếp theo nên làm. Không viết thuê luận văn.\n\n👉 Đặt lịch: https://trogiupsinhvien.vercel.app/?utm_source=facebook&utm_medium=organic&utm_campaign=thesis_pilot&utm_content=fb001",
+    "bufferPostId": "6abb7ed9f11dbac280afebb0",
+    "queuedAt": "2026-09-29T09:03:21.372Z",
+    "dueAt": "2026-09-30T01:42:00.000Z"
   },
   {
     "id": "fb-002",
