@@ -74,8 +74,13 @@ const mutation = `mutation CreatePost {
   createPost(input: {
     text: ${esc(next.text)},
     channelId: ${esc(fb.id)},
-    schedulingType: automatic,
-    mode: addToQueue
+        schedulingType: automatic,
+    mode: addToQueue,
+    metadata: {
+      facebook: {
+        type: post
+      }
+    }
   }) {
     ... on PostActionSuccess { post { id text dueAt } }
     ... on MutationError { message }
