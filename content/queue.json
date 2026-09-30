@@ -9,8 +9,11 @@
   },
   {
     "id": "fb-002",
-    "status": "ready",
-    "text": "📝 GVHD bảo “xem lại phương pháp” nhưng bạn không biết phải xem lại cái gì?\n\nThường phải kiểm tra: mục tiêu nghiên cứu → loại dữ liệu → phương pháp phân tích → cách diễn giải kết quả.\n\nNếu chưa xác định được điểm sai, có thể đặt lịch để kiểm tra bài trước khi sửa tiếp.\n\n👉 https://trogiupsinhvien.vercel.app/?utm_source=facebook&utm_medium=organic&utm_campaign=thesis_pilot&utm_content=fb002"
+    "status": "queued",
+    "text": "📝 GVHD bảo “xem lại phương pháp” nhưng bạn không biết phải xem lại cái gì?\n\nThường phải kiểm tra: mục tiêu nghiên cứu → loại dữ liệu → phương pháp phân tích → cách diễn giải kết quả.\n\nNếu chưa xác định được điểm sai, có thể đặt lịch để kiểm tra bài trước khi sửa tiếp.\n\n👉 https://trogiupsinhvien.vercel.app/?utm_source=facebook&utm_medium=organic&utm_campaign=thesis_pilot&utm_content=fb002",
+    "bufferPostId": "6abc6d7828074da804bbf88d",
+    "queuedAt": "2026-09-30T02:01:28.169Z",
+    "dueAt": "2026-10-01T01:39:00.000Z"
   },
   {
     "id": "fb-003",
