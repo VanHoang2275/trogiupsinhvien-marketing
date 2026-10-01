@@ -17,8 +17,11 @@
   },
   {
     "id": "fb-003",
-    "status": "ready",
-    "text": "📊 CÓ FILE EXCEL RỒI NHƯNG KHÔNG BIẾT LÀM GÌ TIẾP?\n\nCronbach? EFA? Regression? Python? GIS?\n\nĐừng chọn phương pháp chỉ vì thấy người khác làm. Phương pháp phải xuất phát từ câu hỏi nghiên cứu và dữ liệu thực tế của bạn.\n\n👉 Đặt lịch hỗ trợ: https://trogiupsinhvien.vercel.app/?utm_source=facebook&utm_medium=organic&utm_campaign=thesis_pilot&utm_content=fb003"
+    "status": "queued",
+    "text": "📊 CÓ FILE EXCEL RỒI NHƯNG KHÔNG BIẾT LÀM GÌ TIẾP?\n\nCronbach? EFA? Regression? Python? GIS?\n\nĐừng chọn phương pháp chỉ vì thấy người khác làm. Phương pháp phải xuất phát từ câu hỏi nghiên cứu và dữ liệu thực tế của bạn.\n\n👉 Đặt lịch hỗ trợ: https://trogiupsinhvien.vercel.app/?utm_source=facebook&utm_medium=organic&utm_campaign=thesis_pilot&utm_content=fb003",
+    "bufferPostId": "6abdbf3824db200ef44355ab",
+    "queuedAt": "2026-10-01T02:02:32.148Z",
+    "dueAt": "2026-10-02T01:14:00.000Z"
   },
   {
     "id": "fb-004",
