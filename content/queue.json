@@ -33,8 +33,11 @@
   },
   {
     "id": "fb-005",
-    "status": "ready",
-    "text": "🔎 5 câu nên tự hỏi trước khi nộp đề cương:\n\n1) Vấn đề nghiên cứu có rõ không?\n2) Mục tiêu có đo được không?\n3) Dữ liệu có thật sự lấy được không?\n4) Phương pháp có trả lời đúng câu hỏi nghiên cứu không?\n5) Kết quả dự kiến có giá trị gì?\n\n👉 Cần kiểm tra đề cương: https://trogiupsinhvien.vercel.app/?utm_source=facebook&utm_medium=organic&utm_campaign=thesis_pilot&utm_content=fb005"
+    "status": "queued",
+    "text": "🔎 5 câu nên tự hỏi trước khi nộp đề cương:\n\n1) Vấn đề nghiên cứu có rõ không?\n2) Mục tiêu có đo được không?\n3) Dữ liệu có thật sự lấy được không?\n4) Phương pháp có trả lời đúng câu hỏi nghiên cứu không?\n5) Kết quả dự kiến có giá trị gì?\n\n👉 Cần kiểm tra đề cương: https://trogiupsinhvien.vercel.app/?utm_source=facebook&utm_medium=organic&utm_campaign=thesis_pilot&utm_content=fb005",
+    "bufferPostId": "6ac05fdc5831428806acb47b",
+    "queuedAt": "2026-10-03T01:52:28.596Z",
+    "dueAt": "2026-10-08T01:39:00.000Z"
   },
   {
     "id": "fb-006",
