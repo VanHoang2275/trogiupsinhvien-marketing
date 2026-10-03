@@ -252,7 +252,7 @@ if (!payload?.post?.id) {
  * 7. Record Buffer result locally
  */
 next.bufferPostId = payload.post.id;
-next.status = 'queued';
+next.status = 'buffer_accepted';
 next.queuedAt = new Date().toISOString();
 next.dueAt =
   payload.post.dueAt || null;
@@ -278,5 +278,5 @@ console.log(
 );
 
 console.log(
-  'AI Marketing Bot finished successfully.'
+  'Buffer transfer finished. Final Facebook publication must be verified at the destination before reporting SUCCESS.'
 );
