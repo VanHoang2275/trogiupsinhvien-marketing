@@ -41,8 +41,11 @@
   },
   {
     "id": "fb-006",
-    "status": "ready",
-    "text": "🗺️ Làm đề tài có GIS/GEE/Remote Sensing nhưng bị kẹt ở dữ liệu, code hoặc bản đồ?\n\nĐừng bắt đầu bằng việc viết code dài. Cần chốt trước: khu vực nghiên cứu → dữ liệu → chỉ số/phương pháp → output bản đồ → cách kiểm định.\n\n👉 Đặt lịch hỗ trợ: https://trogiupsinhvien.vercel.app/?utm_source=facebook&utm_medium=organic&utm_campaign=thesis_pilot&utm_content=fb006"
+    "status": "buffer_accepted",
+    "text": "🗺️ Làm đề tài có GIS/GEE/Remote Sensing nhưng bị kẹt ở dữ liệu, code hoặc bản đồ?\n\nĐừng bắt đầu bằng việc viết code dài. Cần chốt trước: khu vực nghiên cứu → dữ liệu → chỉ số/phương pháp → output bản đồ → cách kiểm định.\n\n👉 Đặt lịch hỗ trợ: https://trogiupsinhvien.vercel.app/?utm_source=facebook&utm_medium=organic&utm_campaign=thesis_pilot&utm_content=fb006",
+    "bufferPostId": "6ac1ba937d53b827e0f726d5",
+    "queuedAt": "2026-10-04T02:31:48.064Z",
+    "dueAt": "2026-10-09T01:14:00.000Z"
   },
   {
     "id": "fb-007",
