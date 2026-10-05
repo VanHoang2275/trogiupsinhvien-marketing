@@ -49,8 +49,11 @@
   },
   {
     "id": "fb-007",
-    "status": "ready",
-    "text": "💡 LUẬN VĂN KHÔNG NHẤT THIẾT PHẢI ‘HAY’ NGAY TỪ ĐẦU.\n\nNhưng nó phải logic: vấn đề → câu hỏi → mục tiêu → dữ liệu → phương pháp → kết quả → kết luận. Chỉ cần một mắt xích lệch, các chương sau sẽ rất khó sửa.\n\n👉 Kiểm tra logic bài: https://trogiupsinhvien.vercel.app/?utm_source=facebook&utm_medium=organic&utm_campaign=thesis_pilot&utm_content=fb007"
+    "status": "buffer_accepted",
+    "text": "💡 LUẬN VĂN KHÔNG NHẤT THIẾT PHẢI ‘HAY’ NGAY TỪ ĐẦU.\n\nNhưng nó phải logic: vấn đề → câu hỏi → mục tiêu → dữ liệu → phương pháp → kết quả → kết luận. Chỉ cần một mắt xích lệch, các chương sau sẽ rất khó sửa.\n\n👉 Kiểm tra logic bài: https://trogiupsinhvien.vercel.app/?utm_source=facebook&utm_medium=organic&utm_campaign=thesis_pilot&utm_content=fb007",
+    "bufferPostId": "6ac302c5ca1380ada840eb8b",
+    "queuedAt": "2026-10-05T01:52:05.425Z",
+    "dueAt": "2026-10-14T01:42:00.000Z"
   },
   {
     "id": "fb-008",
