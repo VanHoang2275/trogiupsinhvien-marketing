@@ -57,8 +57,11 @@
   },
   {
     "id": "fb-008",
-    "status": "ready",
-    "text": "📈 SPSS chạy ra kết quả không có nghĩa là phân tích đã đúng.\n\nQuan trọng hơn là: biến được xây dựng thế nào, giả thuyết nào đang kiểm định, điều kiện của mô hình có đạt không và kết quả trả lời câu hỏi nghiên cứu ra sao.\n\n👉 Nếu đang kẹt ở phần phân tích dữ liệu: https://trogiupsinhvien.vercel.app/?utm_source=facebook&utm_medium=organic&utm_campaign=thesis_pilot&utm_content=fb008"
+    "status": "buffer_accepted",
+    "text": "📈 SPSS chạy ra kết quả không có nghĩa là phân tích đã đúng.\n\nQuan trọng hơn là: biến được xây dựng thế nào, giả thuyết nào đang kiểm định, điều kiện của mô hình có đạt không và kết quả trả lời câu hỏi nghiên cứu ra sao.\n\n👉 Nếu đang kẹt ở phần phân tích dữ liệu: https://trogiupsinhvien.vercel.app/?utm_source=facebook&utm_medium=organic&utm_campaign=thesis_pilot&utm_content=fb008",
+    "bufferPostId": "6ac462d498d02b181e1d9c13",
+    "queuedAt": "2026-10-06T02:54:12.960Z",
+    "dueAt": "2026-10-15T01:39:00.000Z"
   },
   {
     "id": "fb-009",
