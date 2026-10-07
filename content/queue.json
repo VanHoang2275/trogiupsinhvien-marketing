@@ -65,8 +65,11 @@
   },
   {
     "id": "fb-009",
-    "status": "ready",
-    "text": "⏰ DEADLINE LUẬN VĂN ĐANG TỚI GẦN?\n\nĐừng chia thời gian đều cho mọi chương. Hãy ưu tiên phần có khả năng làm cả bài phải sửa lại: phương pháp, dữ liệu và kết quả. Format và trình bày làm sau.\n\n👉 Cần xác định thứ tự xử lý: https://trogiupsinhvien.vercel.app/?utm_source=facebook&utm_medium=organic&utm_campaign=thesis_pilot&utm_content=fb009"
+    "status": "buffer_accepted",
+    "text": "⏰ DEADLINE LUẬN VĂN ĐANG TỚI GẦN?\n\nĐừng chia thời gian đều cho mọi chương. Hãy ưu tiên phần có khả năng làm cả bài phải sửa lại: phương pháp, dữ liệu và kết quả. Format và trình bày làm sau.\n\n👉 Cần xác định thứ tự xử lý: https://trogiupsinhvien.vercel.app/?utm_source=facebook&utm_medium=organic&utm_campaign=thesis_pilot&utm_content=fb009",
+    "bufferPostId": "6ac5ab8836c2a7788dc99005",
+    "queuedAt": "2026-10-07T02:16:40.715Z",
+    "dueAt": "2026-10-16T01:14:00.000Z"
   },
   {
     "id": "fb-010",
