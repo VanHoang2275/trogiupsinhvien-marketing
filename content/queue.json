@@ -73,7 +73,10 @@
   },
   {
     "id": "fb-010",
-    "status": "ready",
-    "text": "🎤 TRƯỚC KHI LÀM SLIDE BẢO VỆ, HÃY TRẢ LỜI ĐƯỢC 3 CÂU:\n\n1) Nghiên cứu giải quyết vấn đề gì?\n2) Bạn đã làm bằng cách nào?\n3) Kết quả quan trọng nhất là gì?\n\nNếu chưa nói gọn được 3 câu này, slide đẹp cũng khó cứu phần bảo vệ.\n\n👉 Đặt lịch chuẩn bị bảo vệ: https://trogiupsinhvien.vercel.app/?utm_source=facebook&utm_medium=organic&utm_campaign=thesis_pilot&utm_content=fb010"
+    "status": "buffer_accepted",
+    "text": "🎤 TRƯỚC KHI LÀM SLIDE BẢO VỆ, HÃY TRẢ LỜI ĐƯỢC 3 CÂU:\n\n1) Nghiên cứu giải quyết vấn đề gì?\n2) Bạn đã làm bằng cách nào?\n3) Kết quả quan trọng nhất là gì?\n\nNếu chưa nói gọn được 3 câu này, slide đẹp cũng khó cứu phần bảo vệ.\n\n👉 Đặt lịch chuẩn bị bảo vệ: https://trogiupsinhvien.vercel.app/?utm_source=facebook&utm_medium=organic&utm_campaign=thesis_pilot&utm_content=fb010",
+    "bufferPostId": "6ac7025957f9bd074d2470d5",
+    "queuedAt": "2026-10-08T02:39:21.368Z",
+    "dueAt": "2026-10-21T01:42:00.000Z"
   }
 ]
