@@ -1,0 +1,29 @@
+{
+  "task_id": "OPA-GIS-20261009T225236Z",
+  "objective": "Tìm 10 khách hàng có nhu cầu GIS trong 24 giờ gần nhất, phân tích và chuẩn bị đề xuất tiếp cận",
+  "owner": "A0/root",
+  "input": {
+    "window_start": "2026-10-08T22:52:36Z",
+    "window_end": "2026-10-09T22:52:36Z",
+    "sources": "Public permitted sources"
+  },
+  "output": [
+    "leads.csv",
+    "analysis.md",
+    "outreach_drafts.md",
+    "execution_log.md",
+    "test_report.md"
+  ],
+  "acceptance_criteria": [
+    "Verified buying need",
+    "Verifiable publication timestamp within window",
+    "Unique source URL",
+    "Autonomous handoff and QA callback evidence"
+  ],
+  "status": "READY",
+  "evidence": [
+    "Both supplied protocols read; their contents are identical"
+  ],
+  "next_action": "Dispatch native executor and inspect persistent hub",
+  "timestamp": "2026-10-09T22:52:52.940779+00:00"
+}
